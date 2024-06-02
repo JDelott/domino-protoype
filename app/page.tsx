@@ -1,11 +1,14 @@
 
 "use client"
+import Approach from "@/components/Approach";
 import Clients from "@/components/Clients";
+import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { RecentProjects } from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
+import Footer from "@/components/Footer";
 
 
 
@@ -18,6 +21,9 @@ export default function Home() {
       <Grid/>
       <RecentProjects/>
       <Clients/>
+      <Experience/>
+      <Approach/>
+      <Footer/>
     </div>
    </main>
   );
